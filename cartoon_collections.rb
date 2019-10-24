@@ -9,8 +9,7 @@ end
 
 def summon_captain_planet(elements)# code an argument here
   # Your code here
-  planeteer_array = []
-  planeteer_array = elements.map{|item| item.capitalize + "!"}
+  elements.map{|item| item.capitalize + "!"}
 end
 
 def long_planeteer_calls(words)# code an argument here
