@@ -14,11 +14,12 @@ end
 
 def long_planeteer_calls(words)# code an argument here
   # Your code here
-  if words.find{|word| word.length > 4} == nil
-    false
-  else
-    true
-  end
+  words.any?{|word| word.length > 4}
+  #if words.find{|word| word.length > 4} == nil
+  #  false
+  #else
+  #  true
+  #end
 
 #binding.pry
 
